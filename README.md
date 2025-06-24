@@ -6,3 +6,6 @@ blockingqueue, og oppg3 er programmert med blockingqueue.
 Quicksort er en algoritme som tar 10 tilfeldige tall mellom 0 til 100, og sorterer de i stigende rekkefølge.
 
 Dat109_oblig1 er en simulator av det klassiske slange- og stigespillet, som jeg har laget med en annen person, hvor vi har utviklet denne simulatoren med GRASP prinsipper.
+
+Bug2_navigation er et Ros2 prosjekt hvor en robot har to følgende navigasjonsmetoder; wall following og go to point. Den første metoden, wall following er en metode når roboten møter på en vegg, skal den kjøre langs vegggen. Go to point er en annen navigeringsmetode hvor roboten vil få et punkt, og vil da begynne å kjøre mot punktet og stoppe når den kommer fram. Bug2_navigation bruker disse metodene for å kjøre roboten i omgivelsene sine. Den starter i go to point, og begynner å kjøre mot et punkt. Møter den på en vegg, vil den bytter over til wall following og begynner å kjøre langs veggen. Når roboten har kommet seg på andre siden av veggen, og ser at den er nærmere punktet, wil den bytte tilbake til go to point, og gå mot punktet. Slik vil roboten navigere, til den kommer til punktet den har fått og stopper.
+
